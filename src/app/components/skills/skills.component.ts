@@ -7,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SkillsComponent implements OnInit {
 
-  constructor() { }
+  public title: String;
+
+  constructor() {
+    this.title = "Habilidades"
+  }
 
   ngOnInit(): void {
   }

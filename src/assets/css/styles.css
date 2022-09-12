@@ -125,7 +125,6 @@ a{
     width: auto;
 }
 
-
 .grid-home .container-home-text{
     font-size: 60px;
     line-height: 130px;
@@ -254,6 +253,13 @@ textarea{
     color: var(--blueWeb2);
 }
 
+/* Error */
+.container-unplugged{
+    height: 350px;
+    width: 350px;
+    padding-top: 20px;
+}
+
 /* Responsive Web Desing */
 @media (max-width: 1468px) {
     .grid-imges{
@@ -377,6 +383,11 @@ textarea{
 @media (max-width: 630px) {
     .grid-imges img{
         height: 100px;
+    }
+
+    .container-unplugged{
+        height: 250px;
+        width: 250px;
     }
 
     .mid-form{

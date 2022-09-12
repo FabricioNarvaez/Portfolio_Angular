@@ -9,16 +9,16 @@
         <nav id="menu">
             <ul>
                 <li>
-                    <a class="active" href="#">Home</a>
+                    <a [routerLink]="['/home']" [routerLinkActive]="['active']">Home</a>
                 </li>
                 <li>
-                    <a href="/about_me.html">Sobre mi</a>
+                    <a [routerLink]="['/aboutMe']" [routerLinkActive]="['active']">Sobre mi</a>
                 </li>
                 <li>
-                    <a href="/skills.html">Habilidades</a>
+                    <a [routerLink]="['/skills']" [routerLinkActive]="['active']">Habilidades</a>
                 </li>
                 <li>
-                    <a href="/contact.html">Contacto</a>
+                    <a [routerLink]="['/contact']" [routerLinkActive]="['active']">Contacto</a>
                 </li>
             </ul>
         </nav>

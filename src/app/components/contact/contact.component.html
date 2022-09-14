@@ -3,32 +3,53 @@
 
            <h1 class="subheader">{{title}}</h1>
 
-           <form class="mid-form" action="/send-email" method="POST">
+           <h1>{{contactForm.value | json}}</h1>
+
+           <form class="mid-form" #contactForm="ngForm" (ngSubmit)="onSubmit(contactForm)">
                 <div class="container-grid">
                     <div class="form-group">
                         <label for="name">Nombre</label>
-                        <input type="text" name="name" autofocus class="form-control" />
+                        <input type="text" name="name"  class="form-control" 
+                        [(ngModel)]="model.name" required #name="ngModel"/>
+
+                        <small [hidden]="name.pristine || name.valid">
+                            Este campo es requerido
+                        </small>
                     </div>
 
                     <div class="form-group">
                         <label for="email">Email</label>
-                        <input type="email" name="Email" class="form-control" />
+                        <input type="email" name="Email" class="form-control" 
+                        [(ngModel)]="model.email" required #email="ngModel"/>
+
+                        <small [hidden]="email.pristine || email.valid">
+                            Este campo es requerido
+                        </small>
                     </div>
                 </div>
 
                 <div class="form-group">
                     <label for="subject">Asunto</label>
-                    <input type="text" name="subject" class="form-control" />
+                    <input type="text" name="subject" class="form-control" 
+                    [(ngModel)]="model.subject" required #subject="ngModel"/>
+
+                    <small [hidden]="subject.pristine || subject.valid">
+                        Este campo es requerido
+                    </small>
                 </div>
 
                 <div class="form-group">
                     <label for="menssage">Mensaje</label>
-                    <textarea name="menssage" class="form-control" ></textarea>
+                    <textarea name="menssage" class="form-control" placeholder="Introduzca su mensaje"
+                    [(ngModel)]="model.message" required #message="ngModel"></textarea>
+
+                    <small [hidden]="subject.pristine || subject.valid">
+                        Este campo es requerido
+                    </small>
                 </div>
 
                 <div class="clearfix"></div>
-
-                <input type="submit" value="Enviar" class="btn" />
+                <input type="submit" value="Enviar" class="btn" [disabled]="contactForm.invalid" />
 
            </form>
         

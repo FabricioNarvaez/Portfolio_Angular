@@ -28,8 +28,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 ## Description
--- EN
+-- EN:
 This proyect adapt my portfolio layout, created in HTML, CSS and JS, to Angular. 
 
--- ESP
+-- ESP:
 Este proyecto consiste en la adaptación de la maquetación de mi portafolio, creado en HTML, CSS y JS,  a Angular.

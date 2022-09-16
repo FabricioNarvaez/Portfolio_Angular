@@ -27,6 +27,9 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
 
-## Descripción
+## Description
+-- EN
+This proyect adapt my portfolio layout, created in HTML, CSS and JS, to Angular. 
 
-Este proyecto consiste en la adaptación de la maquetación de mi portafolio personal a Angular.
+-- ESP
+Este proyecto consiste en la adaptación de la maquetación de mi portafolio, creado en HTML, CSS y JS,  a Angular.

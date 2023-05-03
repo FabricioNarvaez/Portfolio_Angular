@@ -10,17 +10,20 @@
 /* General */
 html {
     min-height: 100%;
-    position: relative;
 }
 
 body{
     margin: 0;
-    /*background-color: var(--greyWeb);*/
-    background: rgb(29,29,29);
-    /*background: radial-gradient(circle, rgba(29,29,29,1) 88%, rgba(29,29,29,0.8757878151260504) 100%);*/
+    background: var(--greyWeb);
     color: var(--white);
     font-family: var(--webFont);
+    display: flex;
+    flex-direction: column;
 }
+
+main {
+    flex: 1;
+  }
 
 a{
     text-decoration: none;
@@ -119,12 +122,12 @@ a{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 25px;
-    margin-top: 50px;
     align-items: center;
 }
 
 .grid-home{
     position: relative;
+    padding-top: 20px;
 }
 
 /* Home Body */
@@ -136,7 +139,7 @@ a{
 }
 
 .grid-home .container-home-text{
-    font-size: 60px;
+    font-size: 50px;
     line-height: 130px;
     font-weight: bold;
     font-style: italic;
@@ -242,10 +245,9 @@ textarea{
 
 /* Footer */
 .footer{
-    background-color: var(--primarioOscuro);
     bottom: 0;
     width: 100%;
-    position: absolute;
+    position: fixed;
     text-align: center;
 }
 
@@ -277,7 +279,7 @@ textarea{
     }
 }
 
-@media (max-width: 1314px) {
+@media (max-width: 1350px) {
     .center{
         width: 90%;
     }
@@ -295,10 +297,6 @@ textarea{
         line-height: 90px;
         margin-bottom: 10px;
     }
-
-    /*.footer-home{
-        position: inherit;
-    }*/
     
     .container-logo{
         height: 400px;
@@ -378,11 +376,6 @@ textarea{
     .grid-imges{
         margin-top: 20px;
         width: auto;
-    }
-
-    .footer{
-        position: inherit;
-        margin-top: 30px;
     }
 }
 

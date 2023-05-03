@@ -308,13 +308,10 @@ textarea{
     }
 }
 
-@media (max-width: 1105px) {
+@media (max-width: 1180px){
     .grid-imges img{
         height: 130px;
     }
-}
-
-@media (max-width: 1000px) {
     #logo{
         float: none;
         width: auto;

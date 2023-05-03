@@ -20,7 +20,8 @@ export class ContactComponent implements OnInit {
         name : "", 
         email : "", 
         subject : "", 
-        message : ""
+        message : "", 
+        phone: ""
     }
 
     constructor() {

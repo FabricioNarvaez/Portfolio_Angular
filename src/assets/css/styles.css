@@ -126,7 +126,8 @@ a{
 }
 
 .grid-home,
-.container-grid{
+.container-grid,
+.center-form{
     position: relative;
     padding-top: 20px;
 }

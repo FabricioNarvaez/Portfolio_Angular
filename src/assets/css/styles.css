@@ -17,7 +17,7 @@ body{
     margin: 0;
     /*background-color: var(--greyWeb);*/
     background: rgb(29,29,29);
-    background: radial-gradient(circle, rgba(29,29,29,1) 88%, rgba(29,29,29,0.8757878151260504) 100%);
+    /*background: radial-gradient(circle, rgba(29,29,29,1) 88%, rgba(29,29,29,0.8757878151260504) 100%);*/
     color: var(--white);
     font-family: var(--webFont);
 }
@@ -34,13 +34,19 @@ a{
 .clearfix{
     clear: both;
     float: none;
+    margin-top: 160px;
 }
 
 /* Header */
 #header{
+    position:fixed;
+    top: 0;
+    left: 0;
     height: 160px;
     width: 100%;
     border-bottom: 3px solid var(--blueWeb2);
+    z-index: 999;
+    background: rgb(29,29,29);
 }
 
 #logo{
@@ -115,6 +121,10 @@ a{
     column-gap: 25px;
     margin-top: 50px;
     align-items: center;
+}
+
+.grid-home{
+    position: relative;
 }
 
 /* Home Body */

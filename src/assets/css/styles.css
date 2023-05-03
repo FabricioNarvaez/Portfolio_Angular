@@ -125,7 +125,8 @@ a{
     align-items: center;
 }
 
-.grid-home{
+.grid-home,
+.container-grid{
     position: relative;
     padding-top: 20px;
 }
@@ -376,6 +377,11 @@ textarea{
     .grid-imges{
         margin-top: 20px;
         width: auto;
+    }
+
+    .footer{
+        position: inherit;
+        margin-top: 35px;
     }
 }
 

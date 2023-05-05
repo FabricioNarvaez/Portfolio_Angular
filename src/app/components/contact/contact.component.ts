@@ -5,7 +5,8 @@ interface ContactForm{
     "name" : string, 
     "email" : string, 
     "subject" : string, 
-    "message" : string
+    "message" : string,
+    "phone": ""
 }
 
 @Component({
@@ -25,13 +26,17 @@ export class ContactComponent implements OnInit {
     }
 
     constructor() {
-        this.title = "Formulario de Contacto"
+        this.title = "Contacto"
     }
 
     ngOnInit(): void {
     }
 
-    onSubmit(form: NgForm):void{
-        console.log('form values', form.valid);
+    sendEmail():void{
+      window.open('mailto:narvaezfabricio38@gmail.com?subject=Asunto%20del%20correo%20electr%C3%B3nico&body=Cuerpo%20del%20correo%20electr%C3%B3nico');
     }
+    // onSubmit(form: NgForm):void{
+    //     console.log('form values', form);
+    //     console.log('form values', form.valid);
+    // }
 }

@@ -30,8 +30,7 @@ a{
     color: var(--white);
 }
 
-#menu ul,
-.center-form ul{
+ul{
     list-style: none;
 }
 
@@ -81,6 +80,22 @@ a{
     float: right;
     text-align: right;
     margin-top: 40px;
+}
+
+.menuIcon {
+    display: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3 ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: var(--white);
 }
 
 #menu ul{
@@ -417,6 +432,37 @@ textarea{
 }
 
 @media (max-width: 630px) {
+    .menuIcon {
+        display: block;
+    }
+
+    .menuIcon.activated .bar:nth-child(2) {
+        opacity: 0;
+    }
+    .menuIcon.activated .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    .menuIcon.activated .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .navMenu {
+        position: fixed;
+        left: -100%;
+        top: 192px;
+        gap: 0;
+        flex-direction: column;
+        background-color: #818181;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navMenu.activated {
+        left: 0;
+    }
     .grid-imges img{
         height: 100px;
     }
@@ -439,18 +485,8 @@ textarea{
     }
 
     .container-logo{
-        height: 225px;
-    }
-
-    #header {
-        height: 270px;
-    }
-
-    #menu ul li {
-        display: revert;
-        height: 30px;
-        margin-left: 5px;
-        margin-right: 5px;
+        width: 100%;
+        height: auto;
     }
 
     .grid-imges{

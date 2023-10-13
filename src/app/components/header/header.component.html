@@ -7,17 +7,22 @@
         </div>
 
         <nav id="menu">
-            <ul>
-                <li>
+            <div class="menuIcon" (click)="toggleMenu()" [ngClass]="{'activated': isMenuActivated}">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</div>
+            <ul class="navMenu" [ngClass]="{'activated': isMenuActivated}">
+                <li (click)="closeMenu()">
                     <a [routerLink]="['/home']" [routerLinkActive]="['active']">Home</a>
                 </li>
-                <li>
+                <li (click)="closeMenu()">
                     <a [routerLink]="['/aboutMe']" [routerLinkActive]="['active']">Sobre mi</a>
                 </li>
-                <li>
+                <li (click)="closeMenu()">
                     <a [routerLink]="['/skills']" [routerLinkActive]="['active']">Habilidades</a>
                 </li>
-                <li>
+                <li (click)="closeMenu()">
                     <a [routerLink]="['/contact']" [routerLinkActive]="['active']">Contacto</a>
                 </li>
             </ul>

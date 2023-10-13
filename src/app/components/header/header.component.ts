@@ -6,7 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
+  isMenuActivated = false;
+  toggleMenu() {
+    this.isMenuActivated = !this.isMenuActivated;
+  }
 
+  closeMenu() {
+    this.isMenuActivated = false;
+  }
   constructor() { }
 
   ngOnInit(): void {

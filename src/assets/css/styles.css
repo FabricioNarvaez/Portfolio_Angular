@@ -494,6 +494,11 @@ textarea{
         height: 130px;
     }
 
+    .grid-img .img-about-me{
+        width: 70%;
+        height: auto;
+    }
+
     .mid-form{
         width: 85%;
     }

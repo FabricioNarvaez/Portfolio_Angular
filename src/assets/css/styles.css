@@ -119,7 +119,8 @@ ul{
 
 /* General Body */
 
-.center{
+.center,
+.center-header{
     width: 80%;
     margin: 0px auto 50px auto;
 }
@@ -148,6 +149,10 @@ ul{
     /* border-bottom: 1.5px solid var(--blueWeb2); */
 }
 
+.center{
+    padding-top: 20px;
+}
+
 .container-grid,
 .grid-home,
 .container-grid-contact{
@@ -159,13 +164,6 @@ ul{
 .container-grid,
 .grid-home{
     align-items: center;
-}
-
-.grid-home,
-.container-grid,
-.center-form{
-    position: relative;
-    padding-top: 20px;
 }
 
 /* Home Body */

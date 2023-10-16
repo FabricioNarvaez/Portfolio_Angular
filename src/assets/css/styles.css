@@ -64,7 +64,6 @@ ul{
 }
 
 #logo{
-    width: 30%;
     float: left;
 }
 
@@ -76,7 +75,6 @@ ul{
 }
 
 #menu{
-    width: 70%;
     float: right;
     text-align: right;
     margin-top: 40px;
@@ -100,7 +98,6 @@ ul{
 
 #menu ul{
     float: right;
-    width: 60%;
 }
 
 #menu ul li{
@@ -146,7 +143,8 @@ ul{
 }
 
 .active{
-    border-bottom: 1.5px solid var(--blueWeb2);
+    color: var(--blueWeb2);
+    /* border-bottom: 1.5px solid var(--blueWeb2); */
 }
 
 .container-grid,

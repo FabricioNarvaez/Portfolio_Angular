@@ -6,6 +6,7 @@ import { AboutMeComponent } from "./components/about-me/about-me.component";
 import { SkillsComponent } from "./components/skills/skills.component";
 import { ContactComponent } from "./components/contact/contact.component";
 import { ErrorComponent } from "./components/error/error.component";
+import { ProjectsComponent } from "./components/projects/projects.component";
 
 const appRoutes: Routes = [
     {path: '', component: HomeComponent},
@@ -14,6 +15,7 @@ const appRoutes: Routes = [
     {path: 'aboutme', component: AboutMeComponent},
     {path: 'skills', component: SkillsComponent},
     {path: 'contact', component: ContactComponent},
+    {path: 'projects', component: ProjectsComponent},
     {path: '**', component: ErrorComponent}
 ];
 

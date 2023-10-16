@@ -110,6 +110,7 @@ ul{
 
 #menu ul li a{
     line-height: 47px;
+    transition: 400ms all;
 }
 
 #menu ul li a:hover{

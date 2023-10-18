@@ -155,7 +155,8 @@ ul{
 
 .container-grid,
 .grid-home,
-.container-grid-contact{
+.container-grid-contact,
+.projects-group{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 25px;

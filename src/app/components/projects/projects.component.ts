@@ -6,8 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent implements OnInit {
-
-  constructor() { }
+  public title: String;
+  constructor() { 
+    this.title = "Proyectos";
+  }
 
   ngOnInit(): void {
   }

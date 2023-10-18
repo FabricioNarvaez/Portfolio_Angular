@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
+import { Meta } from '@angular/platform-browser';
 
 interface ContactForm{
     "name" : string, 
@@ -17,6 +18,7 @@ interface ContactForm{
 export class ContactComponent implements OnInit {
 
     public title: String;
+    public description:string = "¡Hablemos! Estoy siempre interesado en nuevas oportunidades y colaboraciones. Contáctame para discutir proyectos, oportunidades laborales o simplemente para saludar. Estoy disponible y listo para conectarme contigo.";
     public model = {
         name : "", 
         email : "", 
@@ -25,11 +27,15 @@ export class ContactComponent implements OnInit {
         phone: ""
     }
 
-    constructor() {
+    constructor(private meta: Meta) {
         this.title = "Contacto"
     }
 
     ngOnInit(): void {
+        this.meta.updateTag({ name: 'robots', content: 'index, follow' });
+        this.meta.updateTag({ name: 'author', content: 'Fabricio Narváez' });
+        this.meta.updateTag({ name: 'description', content: this.description });
+        this.meta.updateTag({ property: 'og:description', content: this.description });
     }
 
     sendEmail():void{

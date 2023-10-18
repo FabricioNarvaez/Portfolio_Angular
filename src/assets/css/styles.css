@@ -64,7 +64,6 @@ ul{
 }
 
 #logo{
-    width: 30%;
     float: left;
 }
 
@@ -76,7 +75,6 @@ ul{
 }
 
 #menu{
-    width: 70%;
     float: right;
     text-align: right;
     margin-top: 40px;
@@ -100,7 +98,6 @@ ul{
 
 #menu ul{
     float: right;
-    width: 60%;
 }
 
 #menu ul li{
@@ -113,6 +110,7 @@ ul{
 
 #menu ul li a{
     line-height: 47px;
+    transition: 400ms all;
 }
 
 #menu ul li a:hover{
@@ -121,7 +119,8 @@ ul{
 
 /* General Body */
 
-.center{
+.center,
+.center-header{
     width: 80%;
     margin: 0px auto 50px auto;
 }
@@ -146,12 +145,18 @@ ul{
 }
 
 .active{
-    border-bottom: 1.5px solid var(--blueWeb2);
+    color: var(--blueWeb2);
+    /* border-bottom: 1.5px solid var(--blueWeb2); */
+}
+
+.center{
+    padding-top: 20px;
 }
 
 .container-grid,
 .grid-home,
-.container-grid-contact{
+.container-grid-contact,
+.projects-group{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 25px;
@@ -160,13 +165,6 @@ ul{
 .container-grid,
 .grid-home{
     align-items: center;
-}
-
-.grid-home,
-.container-grid,
-.center-form{
-    position: relative;
-    padding-top: 20px;
 }
 
 /* Home Body */
@@ -495,6 +493,11 @@ textarea{
 
     .grid-imges img{
         height: 130px;
+    }
+
+    .grid-img .img-about-me{
+        width: 70%;
+        height: auto;
     }
 
     .mid-form{

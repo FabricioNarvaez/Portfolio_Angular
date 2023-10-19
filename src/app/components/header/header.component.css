@@ -2,3 +2,16 @@
     width: 90%;
     margin: 0px auto;
 }
+
+#header{
+    height: 160px;
+    width: 100%;
+    border-bottom: 3px solid var(--blueWeb2);
+    background: rgb(29,29,29);
+}
+
+@media (max-width: 1180px){
+    #header{
+        height: 190px;
+    }
+}

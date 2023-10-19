@@ -51,13 +51,6 @@ ul{
 }
 
 /* Header */
-#header{
-    height: 160px;
-    width: 100%;
-    border-bottom: 3px solid var(--blueWeb2);
-    background: rgb(29,29,29);
-}
-
 #logo{
     float: left;
 }
@@ -358,10 +351,6 @@ textarea{
         height: 130px;
         margin-left: auto;
         margin-right: auto;
-    }
-
-    #header{
-        height: 190px;
     }
 
     .subheader{

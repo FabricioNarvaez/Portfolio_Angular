@@ -51,16 +51,7 @@ ul{
 }
 
 /* Header */
-#logo{
-    float: left;
-}
 
-#logo img{
-    display: block;
-    float: left;
-    margin-top: 20px;
-    height: 115px;
-}
 
 #menu{
     float: right;
@@ -317,10 +308,6 @@ textarea{
         width: auto;
     }
 
-    .grid-home{
-        margin-top: 200px;
-    }
-
     .grid-home .container-home-text{
         font-size: 50px;
         line-height: 90px;
@@ -339,18 +326,6 @@ textarea{
 @media (max-width: 1180px){
     .grid-imges img{
         height: 130px;
-    }
-    #logo{
-        float: none;
-        width: auto;
-        margin: 0 auto;
-    }
-
-    #logo img{
-        float: none;
-        height: 130px;
-        margin-left: auto;
-        margin-right: auto;
     }
 
     .subheader{

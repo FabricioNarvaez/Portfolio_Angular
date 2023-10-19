@@ -48,79 +48,11 @@ ul{
 .clearfix{
     clear: both;
     float: none;
-    margin-top: 160px;
-}
-
-/* Header */
-#header{
-    position:fixed;
-    top: 0;
-    left: 0;
-    height: 160px;
-    width: 100%;
-    border-bottom: 3px solid var(--blueWeb2);
-    z-index: 999;
-    background: rgb(29,29,29);
-}
-
-#logo{
-    float: left;
-}
-
-#logo img{
-    display: block;
-    float: left;
-    margin-top: 20px;
-    height: 115px;
-}
-
-#menu{
-    float: right;
-    text-align: right;
-    margin-top: 40px;
-}
-
-.menuIcon {
-    display: none;
-    cursor: pointer;
-    margin-top: 10px;
-}
-
-.bar {
-    display: block;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-    -webkit-transition: all 0.3 ease-in-out;
-    transition: all 0.3s ease-in-out;
-    background-color: var(--white);
-}
-
-#menu ul{
-    float: right;
-}
-
-#menu ul li{
-    display: inline-block;
-    height: 46px;
-    margin-left: 15px;
-    margin-right: 15px;
-    font-weight: bold;
-}
-
-#menu ul li a{
-    line-height: 47px;
-    transition: 400ms all;
-}
-
-#menu ul li a:hover{
-    color: var(--blueWeb);
 }
 
 /* General Body */
 
-.center,
-.center-header{
+.center{
     width: 80%;
     margin: 0px auto 50px auto;
 }
@@ -326,14 +258,6 @@ textarea{
         width: 90%;
     }
 
-    #menu ul{
-        width: auto;
-    }
-
-    .grid-home{
-        margin-top: 200px;
-    }
-
     .grid-home .container-home-text{
         font-size: 50px;
         line-height: 90px;
@@ -353,36 +277,9 @@ textarea{
     .grid-imges img{
         height: 130px;
     }
-    #logo{
-        float: none;
-        width: auto;
-        margin: 0 auto;
-    }
-
-    #logo img{
-        float: none;
-        height: 130px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    #header{
-        height: 190px;
-    }
 
     .subheader{
         text-align: center;
-    }
-
-    #menu,
-    #menu ul{
-        clear: both;
-        float: none;
-        text-align: center;
-        width: 100%;
-        margin: 0px;
-        padding: 0px;
-        line-height: 23px;
     }
 
     .grid-home,
@@ -430,37 +327,6 @@ textarea{
 }
 
 @media (max-width: 630px) {
-    .menuIcon {
-        display: block;
-    }
-
-    .menuIcon.activated .bar:nth-child(2) {
-        opacity: 0;
-    }
-    .menuIcon.activated .bar:nth-child(1) {
-        transform: translateY(8px) rotate(45deg);
-    }
-    .menuIcon.activated .bar:nth-child(3) {
-        transform: translateY(-8px) rotate(-45deg);
-    }
-
-    .navMenu {
-        position: fixed;
-        left: -100%;
-        top: 192px;
-        gap: 0;
-        flex-direction: column;
-        background-color: #818181;
-        width: 100%;
-        text-align: center;
-        transition: 0.3s;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .navMenu.activated {
-        left: 0;
-    }
     .grid-imges img{
         height: 100px;
     }

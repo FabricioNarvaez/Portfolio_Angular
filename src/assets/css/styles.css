@@ -114,8 +114,7 @@ ul{
 
 /* General Body */
 
-.center,
-.center-header{
+.center{
     width: 80%;
     margin: 0px auto 50px auto;
 }

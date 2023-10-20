@@ -17,7 +17,6 @@ interface ContactForm{
 })
 export class ContactComponent implements OnInit {
 
-    public title: String;
     public description:string = "¡Hablemos! Estoy siempre interesado en nuevas oportunidades y colaboraciones. Contáctame para discutir proyectos, oportunidades laborales o simplemente para saludar. Estoy disponible y listo para conectarme contigo.";
     public model = {
         name : "", 
@@ -28,7 +27,7 @@ export class ContactComponent implements OnInit {
     }
 
     constructor(private meta: Meta) {
-        this.title = "Contacto"
+
     }
 
     ngOnInit(): void {

@@ -2,7 +2,36 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="es" datatype="plaintext" original="ng2.template" target-language="es">
     <body>
-      <trans-unit id="1926157928707021468" datatype="html">
+    <trans-unit id="7218075423554070735" datatype="html">
+        <source>Sobre mi</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about-me/about-me.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="473339053539298997" datatype="html">
+        <source>Hola, soy <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>"/>Fabricio Narváez<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>"/> y esta es mi web personal.</source><target state="final">Hola, soy <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>"/>Fabricio Narváez<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>"/> y esta es mi web personal.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about-me/about-me.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit><trans-unit id="5864133765177706434" datatype="html">
+        <source>Soy técnico superior en <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://www.fp-informatica.es/dam/&quot; target=&quot;_blank&quot;>"/>Desarrollo de Aplicaciones Multiplataforma (DAM)<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/>. Actualmente, trabajo como <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>"/>Desarrollador Front-End<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>"/> ubicado en <x id="START_LINK_1" equiv-text="&lt;a href=&quot;https://goo.gl/maps/UKuLJg5QwrR4P1rLA&quot; target=&quot;_blank&quot;>"/>Pamplona, Navarra<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/>.</source><target state="final">Soy técnico superior en <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://www.fp-informatica.es/dam/&quot; target=&quot;_blank&quot;>"/>Desarrollo de Aplicaciones Multiplataforma (DAM)<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/>. Actualmente, trabajo como <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>"/>Desarrollador Front-End<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>"/> ubicado en <x id="START_LINK_1" equiv-text="&lt;a href=&quot;https://goo.gl/maps/UKuLJg5QwrR4P1rLA&quot; target=&quot;_blank&quot;>"/>Pamplona, Navarra<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/>.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about-me/about-me.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit><trans-unit id="6120282830246353531" datatype="html">
+        <source>Me considero una persona <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>"/>organizada, entusiasta y perseverante<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>"/> con gran atención a los detalles. Me encuentro continuamente aprendiendo y adquiriendo nuevas habilidades de las tecnologías de mi campo. Por ello, me gusta realizar diferentes formaciones online en mi tiempo libre como: <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://www.udemy.com/course/master-en-logica-de-programacion-50-ejercicios-y-pruebas-tecnicas/&quot; target=&quot;_blank&quot;>"/>Master en Lógica de Programación<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/>, <x id="START_LINK_1" equiv-text="&lt;a href=&quot;https://www.udemy.com/course/curso-de-git-y-la-terminal-de-comandos-para-programadores/&quot; target=&quot;_blank&quot;>"/>Curso de Git y la Terminal de comandos<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/>, <x id="START_LINK_2" equiv-text="&lt;a href=&quot;https://www.udemy.com/course/master-en-frameworks-javascript-aprende-angular-react-vue-js/&quot; target=&quot;_blank&quot;>"/>Master en Frameworks JavaScript: Aprende Angular, React, Vue<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/> y <x id="START_LINK_3" equiv-text="&lt;a href=&quot;https://www.udemy.com/course/desarrollo-web-completo-con-html5-css3-js-php-y-mysql/&quot; target=&quot;_blank&quot; title=&quot;&quot;>"/>Desarrollo Web Completo con HTML5, CSS3, JS, AJAX, PHP y MySQL<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/>.</source><target state="final">Me considero una persona <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>"/>organizada, entusiasta y perseverante<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>"/> con gran atención a los detalles. Me encuentro continuamente aprendiendo y adquiriendo nuevas habilidades de las tecnologías de mi campo. Por ello, me gusta realizar diferentes formaciones online en mi tiempo libre como: <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://www.udemy.com/course/master-en-logica-de-programacion-50-ejercicios-y-pruebas-tecnicas/&quot; target=&quot;_blank&quot;>"/>Master en Lógica de Programación<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/>, <x id="START_LINK_1" equiv-text="&lt;a href=&quot;https://www.udemy.com/course/curso-de-git-y-la-terminal-de-comandos-para-programadores/&quot; target=&quot;_blank&quot;>"/>Curso de Git y la Terminal de comandos<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/>, <x id="START_LINK_2" equiv-text="&lt;a href=&quot;https://www.udemy.com/course/master-en-frameworks-javascript-aprende-angular-react-vue-js/&quot; target=&quot;_blank&quot;>"/>Master en Frameworks JavaScript: Aprende Angular, React, Vue<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/> y <x id="START_LINK_3" equiv-text="&lt;a href=&quot;https://www.udemy.com/course/desarrollo-web-completo-con-html5-css3-js-php-y-mysql/&quot; target=&quot;_blank&quot; title=&quot;&quot;>"/>Desarrollo Web Completo con HTML5, CSS3, JS, AJAX, PHP y MySQL<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/>.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about-me/about-me.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit><trans-unit id="1926157928707021468" datatype="html">
         <source>Inicio</source><target state="final">Inicio</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/header/header.component.html</context>
@@ -11,11 +40,8 @@
       </trans-unit>
       <trans-unit id="7218075423554070735" datatype="html">
         <source>Sobre mi</source><target state="final">Sobre mi</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
-          <context context-type="linenumber">20</context>
-        </context-group>
-      </trans-unit>
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/components/about-me/about-me.component.html</context><context context-type="linenumber">3</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/components/header/header.component.html</context><context context-type="linenumber">20</context></context-group></trans-unit>
       <trans-unit id="5373999042051591619" datatype="html">
         <source>Habilidades</source><target state="final">Habilidades</target>
         <context-group purpose="location">

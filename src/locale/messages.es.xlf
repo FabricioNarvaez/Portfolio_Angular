@@ -48,11 +48,8 @@
       <context-group purpose="location"><context context-type="sourcefile">src/app/components/header/header.component.html</context><context context-type="linenumber">23</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/components/skills/skills.component.html</context><context context-type="linenumber">3</context></context-group></trans-unit>
       <trans-unit id="1872099000671699527" datatype="html">
         <source>Proyectos</source><target state="final">Proyectos</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
-          <context context-type="linenumber">26</context>
-        </context-group>
-      </trans-unit>
+        
+      <context-group purpose="location"><context context-type="sourcefile">src/app/components/header/header.component.html</context><context context-type="linenumber">26</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/components/projects/projects.component.html</context><context context-type="linenumber">2</context></context-group></trans-unit>
       <trans-unit id="8433768950518578342" datatype="html">
         <source>Contacto</source><target state="final">Contacto</target>
         <context-group purpose="location">
@@ -67,6 +64,50 @@
           <context context-type="linenumber">3</context>
         </context-group>
         <note priority="1" from="description">Bienvenido</note>
+      </trans-unit><trans-unit id="4299258671274198297" datatype="html">
+        <source>Link a página Agrupación Paternain</source><target state="final">Link a página Agrupación Paternain</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/projects.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/projects.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit><trans-unit id="6892968006074342686" datatype="html">
+        <source>Captura agrupacionpaternain</source><target state="final">Captura agrupacionpaternain</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/projects.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit><trans-unit id="6221384756375054961" datatype="html">
+        <source>Este proyecto surgió como una primera versión funcional para servir información sobre un torneo de fútbol. La web proporciona información, recibida de un API rest, sobre clasificación, calendarios y partidos entre otros.</source><target state="final">Este proyecto surgió como una primera versión funcional para servir información sobre un torneo de fútbol. La web proporciona información, recibida de un API rest, sobre clasificación, calendarios y partidos entre otros.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/projects.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit><trans-unit id="5374024062596015543" datatype="html">
+        <source>Link a página OMDb MOVIE INFO</source><target state="final">Link a página OMDb MOVIE INFO</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/projects.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/projects.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit><trans-unit id="4443065150382386307" datatype="html">
+        <source>Captura OMDb MOVIE INFO</source><target state="final">Captura OMDb MOVIE INFO</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/projects.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit><trans-unit id="7645984891731621958" datatype="html">
+        <source>Este es un proyecto simple que surgió en base a una prueba técnica en la que se pedía consumir el API de OMDB.</source><target state="final">Este es un proyecto simple que surgió en base a una prueba técnica en la que se pedía consumir el API de OMDB.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/projects.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
       </trans-unit><trans-unit id="8183426496362493041" datatype="html">
         <source>Accesibilidad y Usabilidad</source><target state="final">Accesibilidad y Usabilidad</target>
         <context-group purpose="location">

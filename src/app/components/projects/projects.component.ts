@@ -8,11 +8,9 @@ import { Meta } from '@angular/platform-browser';
 })
 export class ProjectsComponent implements OnInit {
 
-  public title: String;
   public description:string = "Explora una selección de mis proyectos en el desarrollo web, desde los más antiguos a los más recientes. Aquí puedes conocer en detalle mi trabajo y en el mundo del desarrollo web.";
 
-  constructor(private meta: Meta) { 
-    this.title = "Proyectos";
+  constructor(private meta: Meta) {
   }
 
   ngOnInit(): void {

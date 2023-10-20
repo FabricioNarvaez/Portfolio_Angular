@@ -1,11 +1,16 @@
 .skills-grid{
     display: grid;
-    grid-template-columns: repeat(2, 1fr)
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
 }
 
 .skills-grid img{
     height: 48px;
     width: 48px;
+}
+
+.skills_list li{
+    padding: 2px;
 }
 
 @media (max-width: 640px) {

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="es" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="7218075423554070735" datatype="html">
+        <source>Sobre mi</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about-me/about-me.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="473339053539298997" datatype="html">
+        <source>Hola, soy <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Fabricio Narváez<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> y esta es mi web personal.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about-me/about-me.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5864133765177706434" datatype="html">
+        <source>Soy técnico superior en <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://www.fp-informatica.es/dam/&quot; target=&quot;_blank&quot;&gt;"/>Desarrollo de Aplicaciones Multiplataforma (DAM)<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>. Actualmente, trabajo como <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Desarrollador Front-End<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> ubicado en <x id="START_LINK_1" equiv-text="&lt;a href=&quot;https://goo.gl/maps/UKuLJg5QwrR4P1rLA&quot; target=&quot;_blank&quot;&gt;"/>Pamplona, Navarra<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about-me/about-me.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6120282830246353531" datatype="html">
+        <source>Me considero una persona <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>organizada, entusiasta y perseverante<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> con gran atención a los detalles. Me encuentro continuamente aprendiendo y adquiriendo nuevas habilidades de las tecnologías de mi campo. Por ello, me gusta realizar diferentes formaciones online en mi tiempo libre como: <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://www.udemy.com/course/master-en-logica-de-programacion-50-ejercicios-y-pruebas-tecnicas/&quot; target=&quot;_blank&quot;&gt;"/>Master en Lógica de Programación<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>, <x id="START_LINK_1" equiv-text="&lt;a href=&quot;https://www.udemy.com/course/curso-de-git-y-la-terminal-de-comandos-para-programadores/&quot; target=&quot;_blank&quot;&gt;"/>Curso de Git y la Terminal de comandos<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>, <x id="START_LINK_2" equiv-text="&lt;a href=&quot;https://www.udemy.com/course/master-en-frameworks-javascript-aprende-angular-react-vue-js/&quot; target=&quot;_blank&quot;&gt;"/>Master en Frameworks JavaScript: Aprende Angular, React, Vue<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> y <x id="START_LINK_3" equiv-text="&lt;a href=&quot;https://www.udemy.com/course/desarrollo-web-completo-con-html5-css3-js-php-y-mysql/&quot; target=&quot;_blank&quot; title=&quot;&quot;&gt;"/>Desarrollo Web Completo con HTML5, CSS3, JS, AJAX, PHP y MySQL<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about-me/about-me.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8433768950518578342" datatype="html">
+        <source>Contacto</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/contact/contact.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7748065019508253993" datatype="html">
+        <source>Redes Sociales</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/contact/contact.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1926157928707021468" datatype="html">
+        <source>Inicio</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5373999042051591619" datatype="html">
+        <source>Habilidades</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/skills/skills.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1872099000671699527" datatype="html">
+        <source>Proyectos</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/projects.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7030275877440097429" datatype="html">
+        <source>¡Bienvenid@!<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>Soy Fabricio Narváez,<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>Desarrollador Front-End</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/home/home.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">Bienvenido</note>
+      </trans-unit>
+      <trans-unit id="4299258671274198297" datatype="html">
+        <source>Link a página Agrupación Paternain</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/projects.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/projects.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6892968006074342686" datatype="html">
+        <source>Captura agrupacionpaternain</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/projects.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6221384756375054961" datatype="html">
+        <source>Este proyecto surgió como una primera versión funcional para servir información sobre un torneo de fútbol. La web proporciona información, recibida de un API rest, sobre clasificación, calendarios y partidos entre otros.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/projects.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5374024062596015543" datatype="html">
+        <source>Link a página OMDb MOVIE INFO</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/projects.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/projects.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4443065150382386307" datatype="html">
+        <source>Captura OMDb MOVIE INFO</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/projects.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7645984891731621958" datatype="html">
+        <source>Este es un proyecto simple que surgió en base a una prueba técnica en la que se pedía consumir el API de OMDB.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/projects.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8183426496362493041" datatype="html">
+        <source>Accesibilidad y Usabilidad</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/skills/skills.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -14,19 +14,19 @@
 			</div>
             <ul class="navMenu" [ngClass]="{'activated': isMenuActivated}">
                 <li (click)="closeMenu()">
-                    <a [routerLink]="['/home']" [routerLinkActive]="['active']">Home</a>
+                    <a [routerLink]="['/home']" [routerLinkActive]="['active']" i18n>Inicio</a>
                 </li>
                 <li (click)="closeMenu()">
-                    <a [routerLink]="['/aboutMe']" [routerLinkActive]="['active']">Sobre mi</a>
+                    <a [routerLink]="['/aboutMe']" [routerLinkActive]="['active']" i18n>Sobre mi</a>
                 </li>
                 <li (click)="closeMenu()">
-                    <a [routerLink]="['/skills']" [routerLinkActive]="['active']">Habilidades</a>
+                    <a [routerLink]="['/skills']" [routerLinkActive]="['active']" i18n>Habilidades</a>
                 </li>
                 <li (click)="closeMenu()">
-                    <a [routerLink]="['/projects']" [routerLinkActive]="['active']">Proyectos</a>
+                    <a [routerLink]="['/projects']" [routerLinkActive]="['active']" i18n>Proyectos</a>
                 </li>
                 <li (click)="closeMenu()">
-                    <a [routerLink]="['/contact']" [routerLinkActive]="['active']">Contacto</a>
+                    <a [routerLink]="['/contact']" [routerLinkActive]="['active']" i18n>Contacto</a>
                 </li>
             </ul>
         </nav>

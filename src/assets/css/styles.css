@@ -25,14 +25,6 @@ main {
     flex: 1;
   }
 
-a{
-    text-decoration: none;
-    color: var(--white);
-}
-
-ul{
-    list-style: none;
-}
 
 .center-form ul{
     margin-right: 10px;

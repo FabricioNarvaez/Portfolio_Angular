@@ -8,11 +8,9 @@ import { Meta } from '@angular/platform-browser';
 })
 export class AboutMeComponent implements OnInit {
 
-  public title: string;
   public description:string = "¡Bienvenido a mi página de 'Sobre Mí'! Aquí encontrarás información sobre mi background, experiencia y pasiones. Descubre quién soy y lo que puedo ofrecer en el mundo de la tecnología y el desarrollo web.";
 
   constructor(private meta: Meta) {
-    this.title = "Sobre mi"
   }
 
   ngOnInit(): void {

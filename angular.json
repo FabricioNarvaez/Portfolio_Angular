@@ -4,6 +4,12 @@
   "newProjectRoot": "projects",
   "projects": {
     "PortafolioAngular": {
+      "i18n": {
+        "sourceLocale": "es",
+        "locales": {
+          "en": "src/locale/messages.en.xlf"
+        }
+      },
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -17,6 +23,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "aot": true,
             "outputPath": "dist/PortafolioAngular",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -33,7 +40,14 @@
             "scripts": []
           },
           "configurations": {
+            "en": {
+              "localize": ["en"]
+            },
+            "es": {
+              "localize": ["es"]
+            },
             "production": {
+              "localize": true,
               "budgets": [
                 {
                   "type": "initial",
@@ -55,6 +69,7 @@
               "outputHashing": "all"
             },
             "development": {
+              "localize": false,
               "buildOptimizer": false,
               "optimization": false,
               "vendorChunk": true,
@@ -70,6 +85,12 @@
           "configurations": {
             "production": {
               "browserTarget": "PortafolioAngular:build:production"
+            },
+            "en": {
+              "browserTarget": "PortafolioAngular:build:en"
+            },
+            "es": {
+              "browserTarget": "PortafolioAngular:build:es"
             },
             "development": {
               "browserTarget": "PortafolioAngular:build:development"
@@ -98,6 +119,20 @@
               "src/styles.css"
             ],
             "scripts": []
+          }
+        },
+        "xliffmerge": {
+          "builder": "@ngx-i18nsupport/tooling:xliffmerge",
+          "options": {
+            "xliffmergeOptions": {
+              "srcDir": "src/locale",
+              "genDir": "src/locale",
+              "defaultLanguage": "es",
+              "languages": [
+                "es",
+                "en"
+              ]
+            }
           }
         }
       }

@@ -8,11 +8,9 @@ import { Meta } from '@angular/platform-browser';
 })
 export class SkillsComponent implements OnInit {
 
-  public title: String;
   public description:string = "Explora mis habilidades y conocimientos en el desarrollo web. Aquí te muestro todo sobre mis competencias en el mundo del desarrollo web.";
 
   constructor(private meta: Meta) {
-    this.title = "Habilidades"
   }
 
   ngOnInit(): void {

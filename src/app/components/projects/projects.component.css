@@ -6,6 +6,11 @@
     color: var(--blueWeb);
 }
 
+.url_link{
+    text-decoration: underline;
+    text-decoration-color: var(--blueWeb);
+}
+
 .projects-group{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -32,9 +37,9 @@
 }
 
 .tecnologies li{
-    font-weight: bold;
+    list-style: none;
     border-radius: 5px;
-    padding: 7px;
+    padding: 5px;
     margin: 3px;
     background-color: rgba(0, 173, 228, 0.4);
 }

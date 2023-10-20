@@ -49,11 +49,7 @@
       <context-group purpose="location"><context context-type="sourcefile">src/app/components/about-me/about-me.component.html</context><context context-type="linenumber">3</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/components/header/header.component.html</context><context context-type="linenumber">20</context></context-group></trans-unit><trans-unit id="5373999042051591619" datatype="html">
         <source>Habilidades</source>
         <target state="new">Skills</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
-          <context context-type="linenumber">23</context>
-        </context-group>
-      </trans-unit><trans-unit id="1872099000671699527" datatype="html">
+      <context-group purpose="location"><context context-type="sourcefile">src/app/components/header/header.component.html</context><context context-type="linenumber">23</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/components/skills/skills.component.html</context><context context-type="linenumber">3</context></context-group></trans-unit><trans-unit id="1872099000671699527" datatype="html">
         <source>Proyectos</source>
         <target state="new">Proyects</target>
         <context-group purpose="location">
@@ -75,6 +71,13 @@
           <context context-type="linenumber">3</context>
         </context-group>
         <note priority="1" from="description">Bienvenido</note>
+      </trans-unit><trans-unit id="8183426496362493041" datatype="html">
+        <source>Accesibilidad y Usabilidad</source>
+        <target state="new">Accessibility and Usability</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/skills/skills.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
       </trans-unit>
     </body>
   </file>

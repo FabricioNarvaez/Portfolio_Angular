@@ -25,10 +25,6 @@ main {
     flex: 1;
   }
 
-a{
-    text-decoration: none;
-    color: var(--white);
-}
 
 .center-form ul{
     margin-right: 10px;

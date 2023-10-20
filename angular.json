@@ -23,7 +23,6 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "localize": true,
             "aot": true,
             "outputPath": "dist/PortafolioAngular",
             "index": "src/index.html",
@@ -48,6 +47,7 @@
               "localize": ["es"]
             },
             "production": {
+              "localize": true,
               "budgets": [
                 {
                   "type": "initial",
@@ -69,6 +69,7 @@
               "outputHashing": "all"
             },
             "development": {
+              "localize": false,
               "buildOptimizer": false,
               "optimization": false,
               "vendorChunk": true,

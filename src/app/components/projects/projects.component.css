@@ -16,6 +16,7 @@
 .project{
     padding: 20px;
     border: 1px solid var(--blueWeb);
+    border-radius: 10px;
 }
 
 .project img{
@@ -25,13 +26,15 @@
 }
 
 .tecnologies{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
 }
-.tecnologies span{
+
+.tecnologies li{
     font-weight: bold;
     border-radius: 5px;
-    padding: 5px;
+    padding: 7px;
     margin: 3px;
     background-color: rgba(0, 173, 228, 0.4);
 }
@@ -42,7 +45,6 @@
     }
 
     .tecnologies{
-        grid-template-columns: repeat(3, 1fr);
         font-size: 14px;
     }
 }

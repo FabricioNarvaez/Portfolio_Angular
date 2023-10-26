@@ -14,6 +14,8 @@ html {
 
 body{
     margin: 0;
+    padding: 0;
+    overflow: auto;
     background: var(--greyWeb);
     color: var(--white);
     font-family: var(--webFont);
@@ -28,10 +30,6 @@ main {
 a{
     text-decoration: none;
     color: var(--white);
-}
-
-ul{
-    list-style: none;
 }
 
 .center-form ul{
@@ -50,11 +48,18 @@ ul{
     float: none;
 }
 
+.grid-img{
+    display: flex;
+    justify-content: center;
+}
+
 /* General Body */
 
-.center{
+.container{
     width: 80%;
-    margin: 0px auto 50px auto;
+    margin: 0px auto;
+    padding-top: 190px;
+    padding-bottom: 50px;
 }
 
 .center-form{
@@ -81,10 +86,6 @@ ul{
     /* border-bottom: 1.5px solid var(--blueWeb2); */
 }
 
-.center{
-    padding-top: 20px;
-}
-
 .container-grid,
 .grid-home,
 .container-grid-contact,
@@ -105,18 +106,6 @@ ul{
 .container-grid .img-about-me{
     height: 400px;
     width: auto;
-}
-
-.grid-home .container-home-text{
-    font-size: 50px;
-    line-height: 130px;
-    font-weight: bold;
-    font-style: italic;
-}
-
-.container-grid .grid-img{
-    display: flex;
-    justify-content: center;
 }
 
 /* About Me Body */
@@ -254,14 +243,8 @@ textarea{
 }
 
 @media (max-width: 1350px) {
-    .center{
+    .container{
         width: 90%;
-    }
-
-    .grid-home .container-home-text{
-        font-size: 50px;
-        line-height: 90px;
-        margin-bottom: 10px;
     }
     
     .container-logo{
@@ -286,19 +269,7 @@ textarea{
     .container-grid{
         grid: none;
     }
-    
-    .grid-home .container-home-text p{
-        margin-bottom: 0px;
-        margin-top: 20px;
-    }
-    
-    .grid-home .container-home-text{
-        font-size: 42px;
-        line-height: 70px;
-        margin-bottom: 10px;
-    }
 
-    .container-home-text,
     .grid-img,
     .container-skills,
     .grid-imges{
@@ -327,6 +298,9 @@ textarea{
 }
 
 @media (max-width: 630px) {
+    .container{
+        padding-top: 140px;
+    }
     .grid-imges img{
         height: 100px;
     }
@@ -341,13 +315,7 @@ textarea{
     }
 }
 
-@media (max-width: 480px) {
-    .grid-home .container-home-text{
-        font-size: 30px;
-        line-height: 50px;
-        margin-bottom: 10px;
-    }
-
+@media (max-width: 500px) {
     .container-logo{
         width: 100%;
         height: auto;

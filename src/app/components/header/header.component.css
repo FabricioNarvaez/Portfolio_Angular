@@ -3,25 +3,26 @@
     margin: 0px auto;
 }
 
-#header{
+.headerContainer{
+    position: fixed;
     height: 160px;
     width: 100%;
     border-bottom: 3px solid var(--blueWeb2);
     background: rgb(29,29,29);
 }
 
-#logo{
+.logoContainer{
     float: left;
+    padding-top: 18px;
 }
 
-#logo img{
+.logoHeaderImage{
     display: block;
     float: left;
-    margin-top: 20px;
     height: 115px;
 }
 
-#menu{
+.navMenuContainer{
     float: right;
     text-align: right;
     margin-top: 40px;
@@ -43,11 +44,11 @@
     background-color: var(--white);
 }
 
-#menu ul{
+.navMenu{
     float: right;
 }
 
-#menu ul li{
+.navMenuElement{
     display: inline-block;
     height: 46px;
     margin-left: 15px;
@@ -55,37 +56,31 @@
     font-weight: bold;
 }
 
-#menu ul li a{
+.navMenuLink{
     line-height: 47px;
     transition: 400ms all;
 }
 
-#menu ul li a:hover{
+.navMenuLink:hover{
     color: var(--blueWeb);
 }
 
 @media (max-width: 1180px){
-    #header{
-        height: 190px;
-    }
-
-    #logo{
+    .logoContainer{
         float: none;
         width: auto;
+        padding-top:6px;
         margin: 0 auto;
     }
 
-    #logo img{
+    .logoHeaderImage{
         float: none;
-        height: 130px;
         margin-left: auto;
         margin-right: auto;
     }
-}
 
-@media (max-width: 1180px){
-    #menu,
-    #menu ul{
+    .navMenuContainer,
+    .navMenu{
         clear: both;
         float: none;
         text-align: center;
@@ -97,8 +92,33 @@
 }
 
 @media (max-width: 630px) {
+    .center-header{
+        padding-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between
+    }
+
+    .headerContainer{
+        height: 125px;
+    }
+
+    .navMenuContainer{
+        width: auto;
+        text-align: right;
+    }
+
+    .logoContainer{
+        margin: 0;
+    }
+
+    .logoContainer img{
+        height: 85px;
+    }
+
     .menuIcon {
         display: block;
+        margin-top: 26px;
     }
 
     .menuIcon.activated .bar:nth-child(2) {
@@ -116,7 +136,7 @@
     .navMenu {
         position: fixed;
         left: -100%;
-        top: 213px;
+        top: 128px;
         gap: 0;
         flex-direction: column;
         background-color: #818181;

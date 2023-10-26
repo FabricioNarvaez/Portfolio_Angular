@@ -1,32 +1,32 @@
-<header id="header">
+<header class="headerContainer">
     <div class="center-header">
-        <div id="logo">
+        <div class="logoContainer">
             <a href="./index.html" title="Home">
-                <img src="../../../assets/images/Fabricio Narvaez_logo_WB_Small.png" alt="Logo" />
+                <img class="logoHeaderImage" src="../../../assets/images/Fabricio Narvaez_logo_WB_Small.png" alt="Logo" title="Fabricio Narváez logo"/>
             </a>
         </div>
 
-        <nav id="menu">
+        <nav class="navMenuContainer">
             <div class="menuIcon" (click)="toggleMenu()" [ngClass]="{'activated': isMenuActivated}">
 				<span class="bar"></span>
 				<span class="bar"></span>
 				<span class="bar"></span>
 			</div>
             <ul class="navMenu" [ngClass]="{'activated': isMenuActivated}">
-                <li (click)="closeMenu()">
-                    <a [routerLink]="['/home']" [routerLinkActive]="['active']">Inicio</a>
+                <li class="navMenuElement" (click)="closeMenu()">
+                    <a class="navMenuLink" [routerLink]="['/home']" [routerLinkActive]="['active']">Inicio</a>
                 </li>
-                <li (click)="closeMenu()">
-                    <a [routerLink]="['/aboutMe']" [routerLinkActive]="['active']">Sobre mi</a>
+                <li class="navMenuElement" (click)="closeMenu()">
+                    <a class="navMenuLink" [routerLink]="['/aboutMe']" [routerLinkActive]="['active']">Sobre mi</a>
                 </li>
-                <li (click)="closeMenu()">
-                    <a [routerLink]="['/skills']" [routerLinkActive]="['active']">Habilidades</a>
+                <li class="navMenuElement" (click)="closeMenu()">
+                    <a class="navMenuLink" [routerLink]="['/skills']" [routerLinkActive]="['active']">Habilidades</a>
                 </li>
-                <li (click)="closeMenu()">
-                    <a [routerLink]="['/projects']" [routerLinkActive]="['active']">Proyectos</a>
+                <li class="navMenuElement" (click)="closeMenu()">
+                    <a class="navMenuLink" [routerLink]="['/projects']" [routerLinkActive]="['active']">Proyectos</a>
                 </li>
-                <li (click)="closeMenu()">
-                    <a [routerLink]="['/contact']" [routerLinkActive]="['active']">Contacto</a>
+                <li class="navMenuElement" (click)="closeMenu()">
+                    <a class="navMenuLink" [routerLink]="['/contact']" [routerLinkActive]="['active']">Contacto</a>
                 </li>
             </ul>
         </nav>

@@ -1,17 +1,17 @@
 .container-home-text{
     opacity: 0;
-    transform: translateX(-100%); /* Inicialmente, el elemento está desplazado hacia la izquierda */
+    transform: translateX(-100%);
     transition: transform 0.5s, opacity 1s;
 }
 
 .grid-img{
     opacity: 0;
-    transform: translateX(100%); /* Inicialmente, el elemento está desplazado hacia la izquierda */
+    transform: translateX(100%);
     transition: transform 0.5s, opacity 1s;
 }
 
 .container-home-text.show,
 .grid-img.show{
-    transform: translateX(0); /* Cuando se agrega la clase "show", el elemento se desplaza a su posición original */
+    transform: translateX(0);
     opacity: 1;
 }

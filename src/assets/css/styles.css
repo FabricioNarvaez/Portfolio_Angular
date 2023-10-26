@@ -48,6 +48,11 @@ a{
     float: none;
 }
 
+.grid-img{
+    display: flex;
+    justify-content: center;
+}
+
 /* General Body */
 
 .container{

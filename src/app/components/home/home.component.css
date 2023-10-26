@@ -5,13 +5,12 @@
     font-style: italic;
     /* transform: translateX(-100%); */
 }
-.grid-img{
-    display: flex;
-    justify-content: center;
-    /* transform: translateX(100%); */
+
+/* .grid-img{
+    transform: translateX(100%);
 }
 
-/* .container-home-text,
+.container-home-text,
 .grid-img{
     opacity: 0;
     transition: transform 0.5s, opacity 1s;

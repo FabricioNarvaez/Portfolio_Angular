@@ -4,6 +4,7 @@
 }
 
 #header{
+    position: fixed;
     height: 160px;
     width: 100%;
     border-bottom: 3px solid var(--blueWeb2);
@@ -12,12 +13,12 @@
 
 #logo{
     float: left;
+    padding-top: 18px;
 }
 
 #logo img{
     display: block;
     float: left;
-    margin-top: 20px;
     height: 115px;
 }
 
@@ -65,25 +66,19 @@
 }
 
 @media (max-width: 1180px){
-    #header{
-        height: 190px;
-    }
-
     #logo{
         float: none;
         width: auto;
+        padding-top:6px;
         margin: 0 auto;
     }
 
     #logo img{
         float: none;
-        height: 130px;
         margin-left: auto;
         margin-right: auto;
     }
-}
 
-@media (max-width: 1180px){
     #menu,
     #menu ul{
         clear: both;
@@ -97,8 +92,33 @@
 }
 
 @media (max-width: 630px) {
+    .center-header{
+        padding-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between
+    }
+
+    #header{
+        height: 125px;
+    }
+
+    #menu{
+        width: auto;
+        text-align: right;
+    }
+
+    #logo{
+        margin: 0;
+    }
+
+    #logo img{
+        height: 85px;
+    }
+
     .menuIcon {
         display: block;
+        margin-top: 26px;
     }
 
     .menuIcon.activated .bar:nth-child(2) {

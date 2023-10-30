@@ -4,11 +4,25 @@
 
 .project_description_title{
     color: var(--blueWeb);
+    text-align: center;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
 .url_link{
-    text-decoration: underline;
-    text-decoration-color: var(--blueWeb);
+    background-color: var(--blueWeb);
+    padding: 8px;
+    border-radius: 10px;
+    width: 70px;
+    text-align: center;
+}
+
+.url_link:hover{
+    box-shadow: 0px 0px 20px 5px var(--blueWeb);
 }
 
 .projects-group{
@@ -16,18 +30,22 @@
     grid-template-columns: repeat(2, 1fr);
     width: 80%;
     margin: 0 auto;
+    column-gap: 40px;
 }
 
 .project{
-    padding: 20px;
     border: 1px solid var(--blueWeb);
-    border-radius: 10px;
+    border-radius: 12px;
+}
+
+.project_description{
+    padding: 0 20px 20px 20px;
 }
 
 .project img{
     width: 100%;
     height: auto;
-    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
 }
 
 .tecnologies{

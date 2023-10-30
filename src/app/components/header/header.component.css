@@ -9,6 +9,7 @@
     width: 100%;
     border-bottom: 3px solid var(--blueWeb2);
     background: rgb(29,29,29);
+    z-index: 10;
 }
 
 .logoContainer{
@@ -32,6 +33,7 @@
     display: none;
     cursor: pointer;
     margin-top: 16px;
+    width: auto;
 }
 
 .bar {

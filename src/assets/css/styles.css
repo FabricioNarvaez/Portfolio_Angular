@@ -138,6 +138,7 @@ a{
 .grid-imges img{
     height: 150px;
     width: auto;
+    max-width: 350px;
 }
 
 /* Form Body */

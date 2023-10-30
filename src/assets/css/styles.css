@@ -88,8 +88,7 @@ a{
 
 .container-grid,
 .grid-home,
-.container-grid-contact,
-.projects-group{
+.container-grid-contact{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 25px;

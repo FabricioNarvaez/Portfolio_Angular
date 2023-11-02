@@ -1,10 +1,24 @@
 import { Component, OnInit } from '@angular/core';
 import { Meta } from '@angular/platform-browser';
+import { trigger,sequence, style, transition, animate } from '@angular/animations';
+
 
 @Component({
   selector: 'projects',
   templateUrl: './projects.component.html',
-  styleUrls: ['./projects.component.css']
+  styleUrls: ['./projects.component.css'],
+  animations:[
+    trigger('fadeInSequence', [
+      transition('* <=> *', [
+          style({ opacity: 0, transform: 'scale(0)'  }),
+          sequence([
+            animate('100ms', style({ opacity: 1, transform: 'scale(0, .01)' })),
+            animate('100ms', style({ transform: 'scale(1, .01)' })),
+            animate('200ms', style({ transform: 'scale(1, 1)' }))
+          ])
+      ])
+    ]),
+  ]
 })
 export class ProjectsComponent implements OnInit {
 

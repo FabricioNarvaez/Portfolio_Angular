@@ -1,10 +1,19 @@
 import { Component, OnInit } from '@angular/core';
 import { Meta } from '@angular/platform-browser';
+import { trigger, style, transition, animate } from '@angular/animations';
 
 @Component({
   selector: 'app-about-me',
   templateUrl: './about-me.component.html',
-  styleUrls: ['./about-me.component.css']
+  styleUrls: ['./about-me.component.css'],
+  animations: [
+    trigger('fadeIn', [
+      transition(':enter', [
+        style({ opacity: 0, transform: 'translateY(15px)' }),
+        animate('500ms', style({ opacity: 1, transform: 'translateY(0)' })),
+      ])
+    ])
+  ]
 })
 export class AboutMeComponent implements OnInit {
 

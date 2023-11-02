@@ -7,7 +7,7 @@ import { trigger, style, transition, animate } from '@angular/animations';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css'],
   animations: [
-    trigger('fadeInOut', [
+    trigger('fadeIn', [
       transition(':enter', [
         style({ opacity: 0, transform: 'translateY(15px)' }),
         animate('500ms', style({ opacity: 1, transform: 'translateY(0)' })),

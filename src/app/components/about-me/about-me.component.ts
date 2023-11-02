@@ -22,4 +22,9 @@ export class AboutMeComponent implements OnInit {
     this.meta.updateTag({ property: 'og:description', content: this.description });
   }
 
+  openPDF() {
+    const pdfUrl = 'assets/pdf/cv_Fabricio_Narvaez.pdf';
+    window.open(pdfUrl, '_blank');
+  }
+
 }

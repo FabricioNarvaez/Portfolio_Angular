@@ -11,7 +11,6 @@ export class AppComponent {
 
   @HostListener('window:scroll', ['$event'])
   checkScroll() {
-    console.log('test')
     const scrollPosition = window.scrollY;
     this.showScrollButton = scrollPosition > 20;
   }

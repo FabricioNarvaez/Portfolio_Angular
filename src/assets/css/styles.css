@@ -50,8 +50,7 @@ a{
 
 .center-form ul li{
     display: inline-block;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin: 0px 15px;
     font-weight: bold;
 }
 
@@ -140,6 +139,10 @@ a{
 
 .container-grid .container-about-text a{
     color: var(--blueWeb2);
+}
+
+.container-grid .container-about-text li{
+    margin: 10px 0px;
 }
 
 .container-grid .grid-img .img-about-me{

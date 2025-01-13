@@ -6,22 +6,6 @@
     /* transform: translateX(-100%); */
 }
 
-/* .grid-img{
-    transform: translateX(100%);
-}
-
-.container-home-text,
-.grid-img{
-    opacity: 0;
-    transition: transform 0.5s, opacity 1s;
-}
-
-.container-home-text.show,
-.grid-img.show{
-    transform: translateX(0);
-    opacity: 1;
-} */
-
 .grid-home{
     z-index: 1;
 }

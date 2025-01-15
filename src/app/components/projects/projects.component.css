@@ -24,6 +24,7 @@
 .project{
     border: 1px solid var(--blueWeb);
     border-radius: 12px;
+    margin-bottom: 40px;
 }
 
 .project_description{

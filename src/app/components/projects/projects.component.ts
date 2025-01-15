@@ -7,17 +7,13 @@ import { trigger,sequence, style, transition, animate } from '@angular/animation
   selector: 'projects',
   templateUrl: './projects.component.html',
   styleUrls: ['./projects.component.css'],
-  animations:[
-    trigger('fadeInSequence', [
-      transition('* <=> *', [
-          style({ opacity: 0, transform: 'scale(0)'  }),
-          sequence([
-            animate('100ms', style({ opacity: 1, transform: 'scale(0, .01)' })),
-            animate('100ms', style({ transform: 'scale(1, .01)' })),
-            animate('200ms', style({ transform: 'scale(1, 1)' }))
-          ])
+  animations: [
+    trigger('fadeIn', [
+      transition(':enter', [
+        style({ opacity: 0, transform: 'translateY(15px)' }),
+        animate('500ms', style({ opacity: 1, transform: 'translateY(0)' })),
       ])
-    ]),
+    ])
   ]
 })
 export class ProjectsComponent implements OnInit {
